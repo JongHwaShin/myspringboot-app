@@ -21,4 +21,9 @@ public class Account {
     @Column
     private String password;
 
+    @Column
+    private String email;
+
+
+
 }
