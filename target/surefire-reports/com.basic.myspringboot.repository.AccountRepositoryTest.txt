@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.basic.myspringboot.repository.AccountRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 2.068 s - in com.basic.myspringboot.repository.AccountRepositoryTest
