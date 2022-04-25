@@ -1,6 +1,7 @@
 package com.basic.myspringboot.entity;
 
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.Column;
@@ -11,6 +12,7 @@ import javax.persistence.Id;
 
 @Entity
 @Getter @Setter
+@NoArgsConstructor
 public class Account {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -23,6 +25,13 @@ public class Account {
 
     @Column
     private String email;
+
+    public Account(String username){
+        this.username = username;
+
+    }
+
+
 
 
 
